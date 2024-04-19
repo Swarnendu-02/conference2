@@ -143,7 +143,7 @@
 
             </div>
         </div>
-    </div>
+    </div>   
     <div class="container-fluid position-relative py-6">
         <img src="https://themes.dynamiclayers.net/arkid/wp-content/uploads/sites/15/2020/05/team-bg-img.jpg" class="core-com-bk">
         <div class="container position-relative">
