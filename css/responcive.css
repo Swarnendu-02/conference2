@@ -1,0 +1,159 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  .q-number
+  {
+          width: 75%;
+      transform: translateX(101%);
+     
+      top: 0;
+      height: 100vh;
+      transition:.3s;
+  }
+  .q-number.open
+  {
+      transform: translateX(0%);
+      transition:.3s;
+  }
+  .q-box, .q-ft, .q-indi
+  {
+      width:100%;
+  }
+  .test-header
+  {
+      width:75%;
+  }
+  .q-box {
+      padding: 16px;
+  }
+  .q-ft, .q-indi
+  {
+       padding: 0 16px;
+  }
+  .numbertext {
+      font-size: 15px;
+      padding: 0;
+      padding-bottom: 8px;
+  }
+  .q-box .mySlides h3 {
+      margin: 12px 0;
+      font-size: 16px;
+      line-height: 22px;
+  }
+  .q-box .contain {
+      font-size: 16px;
+  }
+  .ans-box {
+    
+      grid-template-columns: 1fr;
+      gap: 0px;
+      margin-top: 33px;
+  }
+  .q-ft .btn
+  {
+      font-size: 13px;
+  }
+  .q-indi {
+      display: grid;
+      background: #ededed;
+      grid-template-columns: 1fr 1fr;
+      gap: 2px;
+   
+  }
+  .q-ft button, .q-ft a {
+  
+      padding: 5px 13px;
+  }
+  .prev, .next {
+      margin-left: 11px;
+      min-width: auto;
+  }
+  .exam-timer {
+      font-size: 16px;
+   
+      margin-right: 0px;
+  }
+  .time-box
+  {
+   width:25%;   
+  }
+  .q-indi div span:first-child {
+      width: 8px;
+      height: 8px;
+  }
+  .q-indi div span:last-child {
+      font-size: 9px;
+  }
+
+}
+
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1900px) {
+  .container {
+    max-width: 1180px;
+}
+.banner-content h2 {
+  font-size: 50px;
+}
+.banner-content h5 {
+  font-size: 20px;
+}
+.top-wrap
+{
+  width: 100%;
+}
+.prep-cell {
+  width: 31%;
+}
+.about-counter-cell img {
+  width: 47px;
+  height: 47px;
+}
+.about-counter-cell h4 {
+  font-size: 24px;
+}
+.about-counter-cell h6 {
+  font-size: 16px;
+}
+.frm-wrap {
+  padding: 0;
+}
+.pr-com-box {
+
+  padding: 32px;
+}
+.pr-com-box img {
+  width: 72%;
+  margin-bottom: 1rem;
+}
+.pr-com-box p {
+  font-size: 14px;
+  padding-top: 1rem;
+}
+.pr-com-box h4 {
+  margin-bottom: 0;
+  font-size: 24px;
+}
+.price-box h2 {
+  justify-content: center;
+  padding: 72px;
+}
+.why-img-lft {
+
+  width: 40%;
+}
+.why-grid
+{
+  width: 55%;
+}
+.faqbox
+{
+  width: 80%;
+  margin: auto;
+}
+.process-content-cell img {
+  width: 502px;
+}
+.contact-link .service-list-box p {
+
+  font-size: 19px;
+  line-height: 31px;
+}
+}
