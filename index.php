@@ -143,12 +143,12 @@
 
             </div>
         </div>
-    </div>   
+    </div>
     <div class="container-fluid position-relative py-6">
         <img src="https://themes.dynamiclayers.net/arkid/wp-content/uploads/sites/15/2020/05/team-bg-img.jpg" class="core-com-bk">
         <div class="container position-relative">
             <div class="row">
-                <div class="heading">
+                <div class="col-12 heading">
                     <h2>heading</h2>
                     <span>sub heading</span>
                 </div>
@@ -164,9 +164,77 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid py-6" style="background: var(--color6);">
+    <div class="container-fluid py-6">
         <div class="container">
             <div class="row">
+                <div class="col-12 col-md-5">
+                    <div class="heading side-heading mb-0">
+                        <h2>head</h2>
+                        <span>sub heading</span>
+                    </div>
+                    <ul class="faq-wrap">
+                        <li>
+                            <h6 class="faq-clk">What is Coke Saathi ?</h6>
+                            <div class="faqx">
+                                <p>lorem</p>
+                            </div>
+                        </li>
+                        <li>
+                            <h6 class="faq-clk">What is Coke Saathi ?</h6>
+                            <div class="faqx">
+                                <p>lorem</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-7">
+                    <div class="regidter-grd">
+                        <div class="archx-service-item ">
+                            <div class="service-serial">01</div>
+                            <div class="service-title-text headline-2 pera-content">
+                                <h3><a href="https://themexriver.com/wp/archix/ideas-inspiration/">Visiting at home</a></h3>
+                                <p>We build and activate br through cultural insight</p>
+                                <a class="more-btn" href="https://themexriver.com/wp/archix/ideas-inspiration/"><i class="fal fa-long-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="archx-service-item active">
+                            <div class="service-serial">02</div>
+                            <div class="service-title-text headline-2 pera-content">
+                                <h3><a href="https://themexriver.com/wp/archix/ideas-inspiration/">Visiting at home</a></h3>
+                                <p>We build and activate br through cultural insight</p>
+                                <a class="more-btn" href="https://themexriver.com/wp/archix/ideas-inspiration/"><i class="fal fa-long-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="archx-service-item ">
+                            <div class="service-serial">03</div>
+                            <div class="service-title-text headline-2 pera-content">
+                                <h3><a href="https://themexriver.com/wp/archix/ideas-inspiration/">Visiting at home</a></h3>
+                                <p>We build and activate br through cultural insight</p>
+                                <a class="more-btn" href="https://themexriver.com/wp/archix/ideas-inspiration/"><i class="fal fa-long-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-6">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 heading">
+                    <h2>heading</h2>
+                    <span>sub heading</span>
+                </div>
+                <div class="col-12">
+                    <div class="course-owl owl-carousel owl-theme">
+                        <div class="item">
+                            1
+                        </div>
+                        <div class="item">
+                            1
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -238,6 +306,29 @@
             }
         });
     }
+    $(".course-owl").owlCarousel({
+            loop: true,
+            margin: 0,
+            dots: true,
+            nav: true,
+            smartSpeed: 1000,
+            autoplay: 6000,
+            navText: ["", ""],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                800: {
+                    items: 1
+                },
+                1024: {
+                    items: 2
+                }
+            }
+        });
     // DOTS - NOT WORKING!!!
 
     var slider1 = $('#slider-1');
@@ -302,7 +393,19 @@
         pullDrag: false,
         items: 1
     });
+    $(document).ready(function() {
+        $('.faq-clk').click(function() {
+            if ($(this).hasClass("active")) {
+                $(".faqx").slideUp();
+                $(".faq-clk").removeClass("active");
+            } else {
+                $(".faqx").slideUp();
+                $(".faq-clk").removeClass("active");
+                $(this).parent().find(".faqx").slideToggle();
+                $(this).parent().find(".faq-clk").toggleClass("active");
+            }
+        });
+    });
 </script>
-
 
 </html>

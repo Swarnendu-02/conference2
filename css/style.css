@@ -1915,3 +1915,138 @@ div#mCSB_1_container {
     height: 400px;
     object-fit: cover;
 }
+.faq-wrap {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.faq-wrap li {
+  list-style: none;
+  margin-bottom: 00px;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.faq-wrap li:last-child {
+  margin-bottom: 0;
+}
+
+.faq-wrap li h6 {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: transparent;
+  padding: 16px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0;
+  cursor: pointer;
+  position: relative;
+  padding-right: 25px;
+}
+
+.faq-wrap li h6::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: bold;
+  content: "\f067";
+  color: #000;
+  font-size: 17px;
+  position: absolute;
+  -webkit-transition-delay: 1300ms;
+  -moz-transition-delay: 1300ms;
+  -ms-transition-delay: 1300ms;
+  -o-transition-delay: 1300ms;
+  transition-delay: 1300ms;
+  right: 0;
+}
+
+.faq-wrap li .faqx {
+  display: none;
+  padding-bottom: 16px;
+  /* box-shadow: 0px 14px 15px #00000012; */
+  /* padding-top: 0; */
+}
+
+.faq-wrap li .faqx p {
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 29px;
+  color: var(--base-color);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.faq-wrap li h6.active::before {
+  content: "\f068";
+  -webkit-transition-delay: 1300ms;
+  -moz-transition-delay: 1300ms;
+  -ms-transition-delay: 1300ms;
+  -o-transition-delay: 1300ms;
+  transition-delay: 1300ms;
+}
+.archx-service-item {
+  padding: 40px 35px;
+  position: relative;
+  border: 1px solid #fff;
+  -webkit-transition: 500ms all ease;
+  transition: 500ms all ease;
+}
+.archx-service-item .bg-img {
+  left: 0;
+  right: 0;
+  opacity: 0;
+  top: 45px;
+  -webkit-transition: 500ms all ease;
+  transition: 500ms all ease;
+}
+.archx-service-item:before {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 0%;
+  height: 5px;
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  -webkit-transition: 500ms all ease;
+  transition: 500ms all ease;
+  background-color: black;
+}
+.archx-service-item.active, .archx-service-item:hover {
+  border: 1px solid rgba(0, 0, 0, 0.168627451);
+}
+.archx-service-item.active:before, .archx-service-item:hover:before {
+  width: 100%;
+}
+.archx-service-item.active .bg-img, .archx-service-item:hover .bg-img {
+  top: 25px;
+  opacity: 1;
+}
+.archx-service-item .service-serial {
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.1490196078);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.archx-service-item .service-title-text h3 {
+  color: #020202;
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 13px;
+}
+.archx-service-item .service-title-text p {
+  padding-bottom: 15px;
+}
+.archx-service-item .service-title-text .more-btn {
+  font-size: 20px;
+}
+.archx-service-item .service-title-text .more-btn:hover {
+  color: black;
+}
+.regidter-grd
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
