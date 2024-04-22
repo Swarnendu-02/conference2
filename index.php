@@ -78,11 +78,11 @@
         <div class="anim-icon1">
             <img src="https://prostruct.valorwide.com/wp-content/uploads/2024/02/shape-01-1.png">
         </div>
-        <div class="container position-relative">
+        <div class="container position-relative mb-5">
             <div class="row">
                 <div class="col-12 col-md-5 message-image-box">
-                    <div class="col-md-10 position-relative">
-                        <img src="images/message.jpg" class="w-100">
+                    <div class="col-md-10 position-relative h-100">
+                        <img src="images/message.jpg" class="w-100 h-100">
                         <div class="vedio__button">
                             <a href="" class="lightbox-image video-btn" data-caption=""><i class="fas fa-download"></i></a>
                         </div>
@@ -306,27 +306,27 @@
     <div class="container-fluid py-6">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-5">
+                <div class="col-12 col-md-4">
                     <div class="heading side-heading mb-0">
                         <h2>head</h2>
                         <span>sub heading</span>
                     </div>
                     <ul class="faq-wrap">
                         <li>
-                            <h6 class="faq-clk">What is Coke Saathi ?</h6>
+                            <h6 class="faq-clk">Terms & Conditions</h6>
                             <div class="faqx">
                                 <p>lorem</p>
                             </div>
                         </li>
                         <li>
-                            <h6 class="faq-clk">What is Coke Saathi ?</h6>
+                            <h6 class="faq-clk">Privacy Policy</h6>
                             <div class="faqx">
                                 <p>lorem</p>
                             </div>
                         </li>
                     </ul>
                 </div>
-                <div class="col-12 col-md-7">
+                <div class="col-12 col-md-8">
                     <div class="regidter-grd">
                         <div class="archx-service-item ">
                             <div class="service-serial">01</div>
