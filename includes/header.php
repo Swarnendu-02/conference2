@@ -4,7 +4,7 @@
         <div class="side-nav">
             <div class="single-header-right sidenav-btn-box">
                 <a href="#" class="side-nav-open side-nav-opener">
-                    <i class="icon-31"></i>
+                <i class="fal fa-align-left"></i>
                 </a>
             </div>
         </div>
@@ -24,7 +24,7 @@
                     </div>
                     <nav class="main-menu navbar-expand-md navbar-light">
                         <ul class="">
-                            <li  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children dropdown active menu-item-68 nav-item"><a title="Home" href="#" class="nav-link-menu">Home</a>
+                            <li  class="d-none menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children dropdown active menu-item-68 nav-item"><a title="Home" href="#" class="nav-link-menu">Home</a>
                                 <ul class="submenu" role="menu">
                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-13 current_page_item active menu-item-52 nav-item"><a title="Home One" href="https://prostruct.valorwide.com/" class="dropdown-menu-item">Home One</a></li>
                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61 nav-item"><a title="Home Two" href="https://prostruct.valorwide.com/home-two/" class="dropdown-menu-item">Home Two</a></li>
@@ -33,15 +33,37 @@
                                 </ul>
                                 <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div>
                             </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children active menu-item-68 nav-item">
+                                <a href="#" class="nav-link-menu">Home</a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children active menu-item-68 nav-item">
+                                <a href="#" class="nav-link-menu">Welcome</a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children active menu-item-68 nav-item">
+                                <a href="#" class="nav-link-menu">Committee</a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children active menu-item-68 nav-item">
+                                <a href="#" class="nav-link-menu">Registration</a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children active menu-item-68 nav-item">
+                                <a href="#" class="nav-link-menu">Course</a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children active menu-item-68 nav-item">
+                                <a href="#" class="nav-link-menu">Venue</a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children active menu-item-68 nav-item">
+                                <a href="#" class="nav-link-menu">Committee</a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children active menu-item-68 nav-item">
+                                <a href="#" class="nav-link-menu">Registration</a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
             </div>
             <div class="header__right">
                 <div class="header__right__button">
-                    <div class="serach-button-style1">
-                        <button type="button" class="search-toggler"><i class="icon-27"></i></button>
-                    </div>
+                  
                     <div class="header__phone">
                         <div class="header__phone__icon">
                             <i class="icon-57"></i>
