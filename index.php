@@ -81,7 +81,7 @@
         <div class="container position-relative mb-5">
             <div class="row">
                 <div class="col-12 col-md-5 message-image-box">
-                    <div class="col-md-10 position-relative h-100">
+                    <div class="col-12 col-md-10 position-relative h-100">
                         <img src="images/message.jpg" class="w-100 h-100">
                         <div class="vedio__button">
                             <a href="" class="lightbox-image video-btn" data-caption=""><i class="fas fa-download"></i></a>
@@ -92,7 +92,7 @@
                         </div>
                     </div>
 
-                    <div class="watch__right col-md-2">
+                    <div class="col-12 watch__right col-md-2">
                         <div class="watch__vedio">
                             <h4> watch </h4>
                             <h4> the </h4>
@@ -103,7 +103,7 @@
                         </div>
                     </div>
                 </div>
-                <div class=" col-12 col-md-7 message-box">
+                <div class=" col-12 col-md-7 message-box mt-5 mt-md-0">
                     <div class="company___right__p">
                         <div class="company___right">
                             <div class="sub__title__one">
@@ -303,7 +303,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid py-6">
+    <div class="container-fluid py-6 pt-0">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-4">
@@ -394,7 +394,7 @@
     <div class="container-fluid hotel-wrap position-relative">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6 py-6 my-5">
+                <div class="col-12 col-md-6 py-6 my-md-5">
                     <div class="swipper_img py-6">
                         <h4>For Sale <span>Estate</span></h4>
                         <h2>Luxury Villa House</h2>
@@ -437,7 +437,7 @@
     <div class="container-fluid city-sec py-6 position-relative">
         <div class="container">
             <div class="row">
-                <div class="col-6 heading side-heading">
+                <div class="col-12 col-md-6 heading side-heading">
                     <h2 style="color: white;">head</h2>
                     <span style="color: var(--color1);">sub heading</span>
                 </div>
@@ -489,7 +489,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <div class="col-10 heading side-heading py-6">
+                    <div class="col-12 col-md-10 heading side-heading py-6">
                         <h2>heading</h2>
                         <span>sub heading</span>
                     </div>
@@ -616,7 +616,7 @@
             animateIn: "fadeIn",
             active: true,
             smartSpeed: 1000,
-            autoplay: 6000,
+            autoplay: false,
             navText: ["", ""],
             responsive: {
                 0: {
@@ -668,9 +668,13 @@
             '<i class="fal fa-long-arrow-right"></i>'
         ],
         responsive: {
+            300: {
+                items: 1,
+            },
             1024: {
-                items: 5
+                items: 5,
             }
+
         }
     });
     $('.hotel-owl').owlCarousel({
@@ -765,6 +769,13 @@
                 $(this).parent().find(".faq-clk").toggleClass("active");
             }
         });
+    });
+    $(window).scroll(function() {
+        var sticky = $('.main-header'),
+            scroll = $(window).scrollTop();
+
+        if (scroll >= 100) sticky.addClass('fixed');
+        else sticky.removeClass('fixed');
     });
 </script>
 
