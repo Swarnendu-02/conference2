@@ -23,7 +23,7 @@
                                             <div class="sub__title">
                                                 <h6>welcome to company</h6>
                                             </div>
-                                            <h1>With The Touch <br> of <span>Prostruct</span></h1>
+                                            <h1>Lorem Ipsum <br> and <span>Meaning</span></h1>
                                             <p>I have been a loyal customer of this auto parts company for years and <br> I cannot recommend them enough.</p>
                                             <div class="btn-box">
                                                 <a href="/contact/" class="btn-one"> View More </a>
@@ -82,7 +82,7 @@
             <div class="row">
                 <div class="col-12 col-md-5 message-image-box">
                     <div class="col-12 col-md-10 position-relative h-100">
-                        <img src="images/message.jpg" class="w-100 h-100">
+                        <img src="https://prostruct.valorwide.com/wp-content/uploads/2023/10/welcome.png" class="w-100 h-100">
                         <div class="vedio__button">
                             <a href="" class="lightbox-image video-btn" data-caption=""><i class="fas fa-download"></i></a>
                         </div>
@@ -112,7 +112,7 @@
                             <div class="heading side-heading mb-0">
                                 <h2 style="
     color: white;
-">head</h2>
+">Lorem Ipsum</h2>
                                 <span style="
     color: var(--color1);
 ">sub heading</span>
@@ -225,7 +225,7 @@
         <div class="container position-relative">
             <div class="row">
                 <div class="col-12 heading">
-                    <h2>heading</h2>
+                    <h2>Lorem Ipsum</h2>
                     <span>sub heading</span>
                 </div>
                 <div class="col-12 core-com-grd">
@@ -308,7 +308,7 @@
             <div class="row">
                 <div class="col-12 col-md-4">
                     <div class="heading side-heading mb-0">
-                        <h2>head</h2>
+                        <h2>Lorem Ipsum</h2>
                         <span>sub heading</span>
                     </div>
                     <ul class="faq-wrap">
@@ -333,7 +333,7 @@
                             <div class="service-title-text headline-2 pera-content">
                                 <h3><a href="https://themexriver.com/wp/archix/ideas-inspiration/">Visiting at home</a></h3>
                                 <p>We build and activate br through cultural insight</p>
-                                <a class="more-btn" href="https://themexriver.com/wp/archix/ideas-inspiration/"><i class="fal fa-long-arrow-right"></i></a>
+                                <a href="single-property-1.html" class="int_btn">Register</a>
                             </div>
                         </div>
                         <div class="archx-service-item active">
@@ -341,7 +341,7 @@
                             <div class="service-title-text headline-2 pera-content">
                                 <h3><a href="https://themexriver.com/wp/archix/ideas-inspiration/">Visiting at home</a></h3>
                                 <p>We build and activate br through cultural insight</p>
-                                <a class="more-btn" href="https://themexriver.com/wp/archix/ideas-inspiration/"><i class="fal fa-long-arrow-right"></i></a>
+                                <a href="single-property-1.html" class="int_btn">Register</a>
                             </div>
                         </div>
                         <div class="archx-service-item ">
@@ -349,7 +349,7 @@
                             <div class="service-title-text headline-2 pera-content">
                                 <h3><a href="https://themexriver.com/wp/archix/ideas-inspiration/">Visiting at home</a></h3>
                                 <p>We build and activate br through cultural insight</p>
-                                <a class="more-btn" href="https://themexriver.com/wp/archix/ideas-inspiration/"><i class="fal fa-long-arrow-right"></i></a>
+                                <a href="single-property-1.html" class="int_btn">Register</a>
                             </div>
                         </div>
                     </div>
@@ -361,7 +361,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 heading">
-                    <h2>heading</h2>
+                    <h2>Lorem Ipsum</h2>
                     <span>sub heading</span>
                 </div>
                 <div class="col-12">
@@ -438,7 +438,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 heading side-heading">
-                    <h2 style="color: white;">head</h2>
+                    <h2 style="color: white;">Lorem Ipsum</h2>
                     <span style="color: var(--color1);">sub heading</span>
                 </div>
 
@@ -490,7 +490,7 @@
             <div class="row">
                 <div class="col-12 col-md-6">
                     <div class="col-12 col-md-10 heading side-heading py-6">
-                        <h2>heading</h2>
+                        <h2>Lorem Ipsum</h2>
                         <span>sub heading</span>
                     </div>
                     <div id="slider-1" class="owl-carousel owl-theme">
@@ -524,14 +524,14 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid east-2 position-relative py-6" style="background: var(--color6);">
+    <div class="container-fluid  position-relative py-6" style="background: var(--color6);">
         <div class="container">
             <div class="row">
                 <div class="footer-widgets widget-count-4 col-12">
                     <div id="arkidabout_widget-2" class="widget footer-widget widget_arkidabout_widget">
                         <div class="widget-box">
                             <div class="widget-about">
-                                <div class="widget-brand"><img src="https://themes.dynamiclayers.net/arkid/wp-content/uploads/sites/15/2020/06/logo-dark.png" alt=""></div>
+                                <div class="widget-brand"><img src="https://prostruct.valorwide.com/wp-content/themes/prostruct/img/logo/logo.png" alt=""></div>
                                 <p>We provide outstanding business consulting services through teamwork.</p>
                                 <ul class="wt-social-icons left">
                                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -597,7 +597,7 @@
         <div class="auto_container">
             <div class="bottom_inner  p_relative">
                 <div class="copyright">
-                    <p>Copyright ©2023 prostruct. All Rights Reserved</p>
+                    <p>Copyright ©2024 Conference. All Rights Reserved</p>
                 </div>
             </div>
         </div>
